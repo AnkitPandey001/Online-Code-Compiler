@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+## CodeStream: Multi-Language Online Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CodeStream, a powerful and versatile online code editor that supports multiple programming languages. CodeStream allows you to write,
+test, and run code directly in your browser with a modern and user-friendly interface.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+-- Multi-Language Support: Execute code in various languages including JavaScript, Python, Java, C#, TypeScript, and PHP.
+-- Interactive Coding: Live code execution with real-time output and error handling.
+-- Dark Themed Interface: Sleek dark theme for reduced eye strain and improved focus.
+-- Easy Language Switching: Simple language selection for a smooth coding experience.
+-- Error Handling: Clear display of error messages and output for effective debugging.
 
-### `npm start`
+## Technologies Used
+## Frontend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-- React: JavaScript library for building user interfaces.
+-- Chakra UI: A modular React component library for building accessible and responsive UIs. Chakra UI Documentation
+-- Monaco Editor: The code editor that powers Visual Studio Code. Monaco Editor Documentation
+-- Piston API: A multi-language code execution API that provides the backend infrastructure for compiling and running code. Piston API Documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+. Select a Language: Choose your preferred programming language from the language selector.
+. Write Code: Enter your code in the Monaco Editor.
+. Run Code: Click the "Run Code" button to execute your code and view the output.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Certainly! Here’s a comprehensive README for your GitHub repository, incorporating the details about Chakra UI, the Piston API, and the Monaco Editor:
 
-### `npm run build`
+CodeStream: Multi-Language Online Code Editor
+Welcome to CodeStream, a powerful and versatile online code editor that supports multiple programming languages. CodeStream allows you to write, test, and run code directly in your browser with a modern and user-friendly interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Key Features
+Multi-Language Support: Execute code in various languages including JavaScript, Python, Java, C#, TypeScript, and PHP.
+Interactive Coding: Live code execution with real-time output and error handling.
+Dark Themed Interface: Sleek dark theme for reduced eye strain and improved focus.
+Easy Language Switching: Simple language selection for a smooth coding experience.
+Error Handling: Clear display of error messages and output for effective debugging.
+Technologies Used
+Frontend:
+React: JavaScript library for building user interfaces.
+Chakra UI: A modular React component library for building accessible and responsive UIs. Chakra UI Documentation
+Monaco Editor: The code editor that powers Visual Studio Code. Monaco Editor Documentation
+Backend:
+Piston API: A multi-language code execution API that provides the backend infrastructure for compiling and running code. Piston API Documentation
+Getting Started
+To run CodeStream locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the Repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy code
+git clone https://github.com/your-username/codestream.git
+Navigate to the Project Directory:
 
-### `npm run eject`
+bash
+Copy code
+cd codestream
+Install Dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+npm install
+Run the Application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+npm start
+Open http://localhost:3000 in your browser to start using CodeStream.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
+Select a Language: Choose your preferred programming language from the language selector.
+Write Code: Enter your code in the Monaco Editor.
+Run Code: Click the "Run Code" button to execute your code and view the output.
+Contributing
+We welcome contributions to enhance CodeStream! Please follow our Contributing Guidelines for information on how to contribute.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+-- Chakra UI: For providing an excellent UI component library.
+-- Monaco Editor: For the powerful code editing capabilities.
+-- Piston API: For enabling multi-language code execution.
