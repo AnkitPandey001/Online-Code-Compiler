@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Text } from '@chakra-ui/react';
+import React from 'react';
+import CodeEditor from './components/CodeEditor';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box bg="#1a202c" color='white' px={4} py={6} >
+      <Text
+        fontSize="4xl"         
+        fontWeight="bold"                         
+        textAlign="center"      
+        color="teal.300"   
+        
+      >
+        CodeStream
+      </Text>
+      <CodeEditor />
+    </Box>
   );
-}
+};
 
 export default App;
